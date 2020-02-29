@@ -1,7 +1,10 @@
 # JavaCoinFlipGame
 
 GCSC - Java - Team 2  
-
+  
+* David Mcconnell  
+* David Huson  
+  
 Required Files:  
 
 Team2Project2.java - Main Class  
