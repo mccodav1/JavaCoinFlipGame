@@ -1,4 +1,5 @@
 # JavaCoinFlipGame
+<<<<<<< HEAD
 GCSC - Java - Team 2\n
 
 Required Files:\n\n
@@ -11,3 +12,6 @@ Quarter.java - Quarter class\n
 Flipper.java - Coinflip class\n
 
 Other files are working files.
+=======
+GCSC - Java - Team 2
+>>>>>>> parent of 943e936... Update README.md
