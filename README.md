@@ -14,4 +14,4 @@ Dime.java - Dime class
 Quarter.java - Quarter class  
 Flipper.java - Coinflip class  
   
-Other files are working files.  
+Other files are extraneous
