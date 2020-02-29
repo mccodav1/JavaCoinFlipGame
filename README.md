@@ -1,13 +1,13 @@
 # JavaCoinFlipGame
-GCSC - Java - Team 2
+GCSC - Java - Team 2\n
 
-Required Files:
+Required Files:\n\n
 
-Team2Project2.java - Main Class
-Penny.java  - Penny class
-Nickel.java - Nickel class
-Dime.java - Dime class
-Quarter.java - Quarter class
-Flipper.java - Coinflip class
+Team2Project2.java - Main Class\n
+Penny.java  - Penny class\n
+Nickel.java - Nickel class\n
+Dime.java - Dime class\n
+Quarter.java - Quarter class\n
+Flipper.java - Coinflip class\n
 
 Other files are working files.
