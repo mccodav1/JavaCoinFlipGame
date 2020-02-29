@@ -1,17 +1,15 @@
 # JavaCoinFlipGame
-<<<<<<< HEAD
-GCSC - Java - Team 2\n
 
-Required Files:\n\n
+GCSC - Java - Team 2
 
-Team2Project2.java - Main Class\n
-Penny.java  - Penny class\n
-Nickel.java - Nickel class\n
-Dime.java - Dime class\n
-Quarter.java - Quarter class\n
-Flipper.java - Coinflip class\n
+Required Files:
+
+Team2Project2.java - Main Class
+Penny.java  - Penny class
+Nickel.java - Nickel class
+Dime.java - Dime class
+Quarter.java - Quarter class
+Flipper.java - Coinflip class
 
 Other files are working files.
-=======
-GCSC - Java - Team 2
->>>>>>> parent of 943e936... Update README.md
+
