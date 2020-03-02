@@ -15,3 +15,8 @@ Quarter.java - Quarter class
 Flipper.java - Coinflip class  
   
 Other files are extraneous
+
+Update 2 Mar 2020:  
+Docstrings needed per Dr. Payne:  
+<t>Classes: Description, name, last modified  
+<t>Methods: What they do  
