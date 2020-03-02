@@ -8,46 +8,48 @@ import java.util.Scanner;
 public class Team2Project2 {
 
 	public static void main(String[] args) {
-		Penny	penny = new Penny();
-		Nickel	nickel = new Nickel();
-		Dime	dime = new Dime();
-		Quarter	quarter = new Quarter();
-		Scanner	keyboard = new Scanner(System.in);
-		boolean	playAgain = true;
-		int		cents = 0;		
+		Penny	penny = new Penny();		// Coin that has value 1 and side-up of "Heads" or "Tails" 
+		Nickel	nickel = new Nickel();		// Coin that has value 5 and side-up of "Heads" or "Tails"
+		Dime	dime = new Dime();			// Coin that has value 10 and side-up of "Heads" or "Tails"
+		Quarter	quarter = new Quarter();	// Coin that has value 25 and side-up of "Heads" or "Tails"
+		Scanner	keyboard = new Scanner(System.in);	// Scanner object for input
+		boolean	playAgain = true;			// Flag to test for end of game
+		int		cents = 0;					// Accumulator to track money earned in game; game ends when >= 100
 		
 		System.out.println("Welcome to Team 3's coin flipper game!");
 
-		while(playAgain) {			// Set to false when player inputs N after a round
-			cents = 0;
+		while(playAgain) {			// Play game until finished; set to false when player inputs N after a round
+			cents = 0;				// New round sets counter to 0
+			
 			while(cents < 100){		// Each round, coins are flipped and if heads, added to counter. Play til 100. 
 				System.out.println("\nYour total is " + String.valueOf(cents) + ". Press ENTER to flip your coins!");
 				keyboard.nextLine();	// Waiting for user to hit enter
-				penny.flip();			// Randomly assigns side to heads or tails
+				
+				// Randomly assign side to "Heads" or "Tails" for each coin.
+				penny.flip();
 				nickel.flip();
 				dime.flip();
 				quarter.flip();
 				
-				System.out.println("Flipping penny... " + penny.getSideUp() + "!");
+				// Display coinflip results.				
+				System.out.println("Flipping penny... " + penny.getSideUp() + "!");		
 				System.out.println("Flipping nickel... " + nickel.getSideUp() + "!");
 				System.out.println("Flipping dime... " + dime.getSideUp() + "!");
 				System.out.println("Flipping quarter... " + quarter.getSideUp() + "!");
 
-				cents += penny.getSideUp() == "Heads" ? penny.getValue() : 0;		// If heads, add the coin's value. If tails, add zero.
+				// If coin landed heads up, add value to accumulator.
+				cents += penny.getSideUp() == "Heads" ? penny.getValue() : 0;
 				cents += nickel.getSideUp() == "Heads" ? nickel.getValue() : 0;
 				cents += dime.getSideUp() == "Heads" ? dime.getValue() : 0;
-				cents += quarter.getSideUp() == "Heads" ? quarter.getValue() : 0;				
-				
-			} // count is over 100, round is over
+				cents += quarter.getSideUp() == "Heads" ? quarter.getValue() : 0;
+			} // count is over 100, round is over			
 			
-			
-			// Check if game is won
-			
-			if(cents == 100) {
+			// Check result
+			if(cents == 100) {	// Game won
 				System.out.println("You hit exactly $1.00! You win!");
 			}	// End if
 			
-			else {
+			else {				// Game lost
 				System.out.println("BUST! Your total is " + String.valueOf(cents));
 			}	// End else
 			
