@@ -22,6 +22,6 @@ Docstrings needed per Dr. Payne:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Methods: What they do  
 
 TODO : Convert cents to dollars to display  
-TODO : Add docstrings  
 TODO : Workspace gives warning when compiling but program runs; find error  
 TODO : Add JOptionPane variant  
+TODO: 'Nice up' the program, per Dr. Payne. Ask user name, etc.  
