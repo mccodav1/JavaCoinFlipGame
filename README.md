@@ -2,8 +2,9 @@
 
 TODO : Any reference to "Team 2" needs changed to "Team 3"; thought we were Team 2!  
 TODO : Convert cents to dollars to display  
-TODO : Workspace gives warning when compiling but program runs; find error  
-TODO : Add JOptionPane variant  
+TODO : Project warning / error due to deprecated "JOptionPane" variant; safe to ignore until updated.  
+TODO : Update JOptionPane variant  
+TODO : Add / update documentation (UML, design document, etc)  
   
 GCSC - Java - Team 3  
   
