@@ -18,5 +18,5 @@ Other files are extraneous
 
 Update 2 Mar 2020:  
 Docstrings needed per Dr. Payne:  
-<t>Classes: Description, name, last modified  
-<t>Methods: What they do  
+    Classes: Description, name, last modified  
+    Methods: What they do  
