@@ -18,5 +18,5 @@ Other files are extraneous
 
 Update 2 Mar 2020:  
 Docstrings needed per Dr. Payne:  
-    Classes: Description, name, last modified  
-    Methods: What they do  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classes: Description, name, last modified  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Methods: What they do  
